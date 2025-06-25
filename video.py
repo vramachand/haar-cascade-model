@@ -9,7 +9,7 @@ if stop_cascade.empty():
     print("Error: Couldn't load model")
     exit()
 
-cap = cv2.VideoCapture(0)  # 0 = default camera
+cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Error: Could not open webcam")
     exit()
